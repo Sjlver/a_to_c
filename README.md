@@ -8,6 +8,7 @@ This work was inspired by the great harmonica study songs from
 <https://www.bluesharmonica.com/>. The music files from that website are created
 for an A-harmonica, but the author of `a_to_c` only owns a C-harmonica.
 
+
 Usage
 -----
 
@@ -30,3 +31,23 @@ Batch-convert all files in the `exercise3` folder, changing pitch from A to G
 and slowing down the songs to 80% speed for practice:
 
     ./a_to_c.py -s A -t G --tempo 0.8 exercise3/*.mp3
+
+
+Installation
+------------
+
+`a_to_c.py` uses Python 3 and FFMPEG.
+
+On Mac OS:
+
+    brew install python3 ffmpeg
+
+On Debian, Ubuntu and similar Linuxes:
+
+    sudo apt install python3 ffmpeg
+
+On Windows, I don't know... Suggestions to update this documentation are
+welcome.
+
+Once the dependencies are installed, simply download and run the `a_to_c.py`
+file.
