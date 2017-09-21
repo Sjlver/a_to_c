@@ -12,6 +12,9 @@ for an A-harmonica, but the author of `a_to_c` only owns a C-harmonica.
 Usage
 -----
 
+`a_to_c.py` is a command line script. To use it, open the `Terminal` app
+(sometimes called "Command Prompt").
+
     a_to_c.py [-h]
               [--source-note {D,D#,Eb,E,F,F#,Gb,G,G#,Ab,A,A#,Bb,B,H,C}]
               [--target-note {D,D#,Eb,E,F,F#,Gb,G,G#,Ab,A,A#,Bb,B,H,C}]
